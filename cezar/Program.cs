@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Program
 {
@@ -7,7 +7,7 @@ class Program
         Console.OutputEncoding = System.Text.Encoding.GetEncoding(1251);
 
         string cesar;
-        int step;
+        int k;
 
         Console.WriteLine("Введите сообщение, которое будет закодировано: ");
     inputstr:
@@ -22,11 +22,11 @@ class Program
         }
 
         Console.WriteLine("Введите шаг кодировки: ");
-    inputstep:
-        if (!int.TryParse(Console.ReadLine(), out step))
+    inputk:
+        if (!int.TryParse(Console.ReadLine(), out k))
         {
             Console.WriteLine("Ошибка в вводе шага кодировки, попробуйте снова.");
-            goto inputstep;
+            goto inputk;
         }
 
         char[] cesarArray = cesar.ToCharArray();
@@ -34,7 +34,7 @@ class Program
         {
             if ((cesarArray[i] >= 'A' && cesarArray[i] <= 'Z') || (cesarArray[i] >= 'a' && cesarArray[i] <= 'z'))
             {
-                cesarArray[i] = (char)(cesarArray[i] + step);
+                cesarArray[i] = (char)(cesarArray[i] + k);
                 if (cesarArray[i] > 'Z' && cesarArray[i] < 'a')
                 {
                     cesarArray[i] = (char)((cesarArray[i] - 'Z') + 'A' - 1);
