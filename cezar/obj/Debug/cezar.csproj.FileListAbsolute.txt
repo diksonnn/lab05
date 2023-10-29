@@ -1,0 +1,8 @@
+C:\Users\denyx\OneDrive\Desktop\Test\cezar\bin\Debug\cezar.exe.config
+C:\Users\denyx\OneDrive\Desktop\Test\cezar\bin\Debug\cezar.exe
+C:\Users\denyx\OneDrive\Desktop\Test\cezar\bin\Debug\cezar.pdb
+C:\Users\denyx\OneDrive\Desktop\Test\cezar\obj\Debug\cezar.csproj.AssemblyReference.cache
+C:\Users\denyx\OneDrive\Desktop\Test\cezar\obj\Debug\cezar.csproj.SuggestedBindingRedirects.cache
+C:\Users\denyx\OneDrive\Desktop\Test\cezar\obj\Debug\cezar.csproj.CoreCompileInputs.cache
+C:\Users\denyx\OneDrive\Desktop\Test\cezar\obj\Debug\cezar.exe
+C:\Users\denyx\OneDrive\Desktop\Test\cezar\obj\Debug\cezar.pdb
